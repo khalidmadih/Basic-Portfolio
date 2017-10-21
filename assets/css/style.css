@@ -1,0 +1,38 @@
+#menu{
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    list-style: none;
+    float: right;
+
+}
+#menu li{
+    display: inline;
+    padding: 0 10px;
+    border-left: solid 1px black;
+    color: grey;
+}
+#menu li:first-child{
+    border-left: none;
+}
+
+ header h1 {
+    color: white;
+    line-height: 45px;
+    font-size: 2rem;
+    margin: 0;
+    display:inline;
+    float: left;
+    background-color: #51aaa5;
+    width: 180px;
+    text-align: center;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#HeaderBackground{
+	background-color: red;
+}
+
+html{
+	border-bottom:5px solid #d2d2d2;
+	vert
+}
