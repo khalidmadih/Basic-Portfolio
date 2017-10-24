@@ -1,50 +1,14 @@
-/*#menu{
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-    list-style: none;
-    float: right;
-
-}
-#menu li{
-    display: inline;
-    padding: 0 10px;
-    border-left: solid 1px #efefef;
-    
-}
-#menu li:first-child{
-    border-left: none;
-}
-
-h1 {
-    color: white;
-    line-height: 45px;
-    font-size: 2rem;
-    margin: 10px 10px 10px 10px;
-    
-    
-}
-
- header {
-    color: white;
-    line-height: 45px;
-    font-size: 2rem;
-    margin: 0;
-    display:inline;
-    float: left;
-    background-color: #51aaa5;
-    width: 180px;
-    text-align: center;
-    height: 60px;
-    vertical-align: middle;
-}
-
-
-a {
-    text-decoration: none;
-    color: #9999a2;
-}*/
 
 h1, h2, h3, h4, h5, h6 {
 font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    color: #51aaa5;
+    font-size: 25px;
+    margin: 20px 20px 0px 20px;
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
 }
 
 body {
@@ -83,6 +47,7 @@ font-size: 20px;
 
 #menu li:first-child{
     border-left: none;
+    color: #4aaaa5;
 }
 
 footer {
@@ -93,11 +58,7 @@ footer {
     padding-bottom: 5px;
     padding-top: 25px;
     border-top: solid 5px #4aaaa5;
-
-
 }
-
-
 
 .entire-area{
     clear: both;
@@ -139,6 +100,24 @@ a {
 }
 
 #sidebar ul li img{
-    width: 75px;
+    width: 60px;
 
 }
+
+#bio {
+    margin: 20px;
+    float: right;
+}
+
+#sidebar ul{
+    margin: 20px;
+}
+
+#main-section img {
+    width: 175px;
+    margin: 20px;
+}
+
+/*a:hover { 
+    background-color: yellow;
+}*/
